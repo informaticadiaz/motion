@@ -2,13 +2,21 @@
 
 Repo dedicado al estudio de motion
 
-Subire los ejemplos disponibles en la [web de motion](https://www.framer.com/motion/) que a mi entender son mas interesentes.
+Objetivos
 
-Tambien generare documentacion relacionada al proyecto.
+- Clonar ejemplos de la [web de motion](https://www.framer.com/motion/).
+
+- Crear componentes propios
+
+- Generare documentacion relacionada al proyecto.
 
 ## Ejemplos
 
 Estan disponibles los siguientes componentes
+
+[Tab frutal](https://snxgv.csb.app/)
+
+[Frutas Voladoras](https://2hbg5.csb.app/)
 
 ##
 
