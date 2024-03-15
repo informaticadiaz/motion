@@ -1,5 +1,8 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + Motion
 
+Repo dedica al estudio de motion
+
+Subire los ejemplos disponibles en la [web de motion](https://www.framer.com/motion/) que a mi entender son mas interesentes
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
