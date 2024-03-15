@@ -1,14 +1,28 @@
 # React + TypeScript + Vite + Motion
 
-Repo dedica al estudio de motion
+Repo dedicado al estudio de motion
 
-Subire los ejemplos disponibles en la [web de motion](https://www.framer.com/motion/) que a mi entender son mas interesentes
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Subire los ejemplos disponibles en la [web de motion](https://www.framer.com/motion/) que a mi entender son mas interesentes.
 
-Currently, two official plugins are available:
+Tambien generare documentacion relacionada al proyecto.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Ejemplos
+
+Estan disponibles los siguientes componentes
+
+##
+
+Documentacion
+
+Dentro del repo habra una carpeta con documentacion relacionada al proyecto y a motion 
+se trataran temas comunes como puesta en marcha, node, npm, pnpm, eslint, git, github,
+package.json, leer esta documentacion puede ser una gran perdida de tiempo para muchos
+o un ingreso amigable para unos poco. El interes de este repo es crecer en comunidad.
+Cualquier sugerencia es bienvenida, puede generar un issue hacer un fork y colaborar
+mantener una libreria de componentes animados de facil implementacion es la tarea.
+
+Que tenga una buenas semana.
+
 
 ## Expanding the ESLint configuration
 
