@@ -4,10 +4,9 @@
 
 Framer Motion es una biblioteca de movimiento simple pero potente para React.
 
-El núcleo de Motion es el componente <motion/>.  Piense en <motion/> como un elemento HTML o SVG.
+El núcleo de Motion es el componente <motion/>. Piense en <motion/> como un elemento HTML o SVG.
 
 **Animations**
-
 
 Para animar un componente <motion/>
 Debemos pasar los [animate prop](https://www.framer.com/docs/animation/)
@@ -18,15 +17,15 @@ Debemos pasar los [animate prop](https://www.framer.com/docs/animation/)
 
 **Gestures**
 
- extiende el sistema de eventos de React con potentes reconocedores de gestos. Soporta hover, tap, pan y drag.
+extiende el sistema de eventos de React con potentes reconocedores de gestos. Soporta hover, tap, pan y drag.
 
 **Variants**
 
 Son utilizados para animar sub-árboles de componentes.
 
 ```jsx
-const list = { hidden: { opacity: 0 } }
-const item = { hidden: { x: -10, opacity: 0 } }
+const list = { hidden: { opacity: 0 } };
+const item = { hidden: { x: -10, opacity: 0 } };
 
 return (
   <motion.ul animate="hidden" variants={list}>
@@ -34,7 +33,7 @@ return (
     <motion.li variants={item} />
     <motion.li variants={item} />
   </motion.ul>
-)
+);
 ```
 
 **Scroll-triggered animations**
@@ -42,10 +41,7 @@ return (
 Los elementos pueden animarse a medida que ingresan y abandonan la ventana gráfica con el accesorio WhileInView.
 
 ```jsx
-<motion.div
-  initial={{ opacity: 0 }}
-  whileInView={{ opacity: 1 }}
-/>
+<motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} />
 ```
 
 **Server-side rendering**
@@ -55,33 +51,33 @@ La animación se renderizará en el servidor para evitar parpadeos de contenido.
 ```jsx
 <motion.div initial={false} animate={{ x: 100 }} />
 ```
-**MotionValues**
 
+**MotionValues**
 
 Son valores que se utilizan para representar el estado y la velocidad de una animación.
 
 ```jsx
-const x = useMotionValue(0)
-const opacity = useTransform(x, [-100, 0, 100], [0, 1, 0])
+const x = useMotionValue(0);
+const opacity = useTransform(x, [-100, 0, 100], [0, 1, 0]);
 
-return <motion.div drag="x" style={{ x, opacity }} />
+return <motion.div drag="x" style={{ x, opacity }} />;
 ```
 
 **Layout animations**
 
+Framer Motion es capaz de animar cambios en el layout utilizando transformaciones eficientes.
 
+```jsx
+<motion.div layout />
+```
 
+**Manual animations**
 
+El hook useAnimate se puede utilizar para activar manualmente animaciones en efectos y <abbr title="event handlers">controladores de eventos</abbr>. También se puede utilizar para orquestar animaciones más complejas.
 
-
-
-
-
-
-
-
-
-
+```jsx
+<div onClick={() => animate(".boxes", { opacity: 0 })} />
+```
 
 Índice
 
@@ -101,15 +97,4 @@ return <motion.div drag="x" style={{ x, opacity }} />
 
 [MotionValues](https://www.framer.com/docs/motionvalue/)
 
-
-
-
-
-
-
-
-
-
-
-
-
+[useAnimate](https://www.framer.com/motion/use-animate/)
