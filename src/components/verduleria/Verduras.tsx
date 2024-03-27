@@ -1,6 +1,6 @@
 import "./verduleria.css";
 import { useState } from "react";
-import { initialTabs as tabs } from "./ingredients";
+import { initialTabs as tabs } from "../../ingredients";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Verduras() {
